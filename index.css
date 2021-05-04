@@ -46,7 +46,7 @@ section{
 /* LETTER */
 /* Body */
 #div-letter{
-    background-color: var(--pink-5);
+    background-color: var(--pink-2);
     /* Size */
     min-height: 100vh;
     max-height: 100%;
@@ -95,7 +95,7 @@ section{
 }
 /* Info */
 #div-info{
-    background-color: var(--pink-4);
+    background-color: var(--pink-5);
     color: var(--white);
     height: 50px;
     width: 100%;
