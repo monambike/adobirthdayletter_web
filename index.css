@@ -1,0 +1,135 @@
+/* CLEANING FORMATTING */
+body{
+    margin: 0%;
+    padding: 0%;
+    /* Text Formatting */
+    font-family: "Times New Roman", Times, serif;
+}
+h1{ margin: 0%; }
+p{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* VARIABLES */
+:root{
+    --black: rgba(80, 80, 80, 1);
+    --pink-1: rgba(240, 150, 190, 1);
+    --pink-2: rgba(240, 170, 200, 1);
+    --pink-3: rgba(245, 185, 205, 1);
+    --pink-4: rgba(245, 200, 215, 1);
+    --pink-5: rgba(245, 215, 225, 1);
+    --pink-6: rgba(245, 230, 235, 1);
+    --white: rgba(245, 245, 245, 1);
+}
+
+/* GENERAL */
+h1{
+    background-color: var(--white);
+    padding: 20px;
+    /* Text Formatting */
+    color: var(--pink-1);
+    font-size: 60pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+section{
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* LETTER */
+/* Body */
+#div-letter{
+    background-color: var(--pink-5);
+    /* Size */
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100%;
+}
+#div-square_letterBackground{
+    background-color: var(--pink-6);
+    bottom: 0px;
+    position: absolute;
+    /* Size */
+    min-height: 65vh;
+    max-height: 100%;
+    width: 100%;
+}
+/* Heart Shape */
+#heart{
+    cursor: pointer;
+    /* Position */
+    margin-top: -50px;
+    margin-left: 35%;
+    position: relative;
+    /* Size */
+    width: 100px;
+    height: 90px;
+}
+#heart:before, #heart:after{
+    background-color: rgb(240, 0, 0, 1);
+    content: "";
+    /* Style */
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    /* Position */
+    position: absolute;
+    top: 0;
+    left: 75px;
+    /* Size */
+    width: 75px;
+    height: 120px;
+}
+#heart:after {
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+    /* Position */
+    left: 0;
+}
+/* Info */
+#div-info{
+    background-color: var(--pink-4);
+    color: var(--white);
+    height: 50px;
+    width: 100%;
+    margin-top: 75px;
+    padding: 20px;
+}
+
+
+
+
+
+/* SECTION ONE */
+#section-one{
+    background-color: var(--pink-2);
+}
+#section-one article{
+    margin: 0%;
+    padding: 10px;
+    /* Text Formatting */
+    color: var(--white);
+}
+
+/* SECTION TWO */
+#section-two{
+    background-color: var(--pink-6);
+}
+
+/* SECTION THREE */
+#section-three{
+    background-color: var(--pink-2);
+}
+
+/* FOOTER */
+#footer{
+    background-color: var(--black);
+    text-align: center;
+}
